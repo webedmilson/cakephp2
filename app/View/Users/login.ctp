@@ -3,7 +3,6 @@
 <?php echo $this->Form->create('User');?>
     <fieldset>
         <legend><?php echo __('Área Restrita'); ?></legend>
-        Edmilson
         <?php
         echo $this->Form->input('username',array(
         	'label'=>'Usuário'

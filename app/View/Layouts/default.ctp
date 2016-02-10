@@ -47,13 +47,7 @@ $cakeVersion = __d('cake_dev', 'Versão Cake %s', Configure::version())
 		</div>
 		<div id="content">
 			<?php echo $this->Flash->render(); ?>
-			<ul>
-				<li>Home</li>
-				<li>Usuários</li>
-				<li>Clientes</li>
-				<li>Empresas</li>
-				<li>Parceiros</li>
-			</ul>
+			
 			<?php echo $this->fetch('content'); ?>
 		</div>
 		<div id="footer">
