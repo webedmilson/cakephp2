@@ -2,7 +2,7 @@
 <?php echo $this->Flash->render('auth'); ?>
 <?php echo $this->Form->create('User');?>
     <fieldset>
-        <legend><?php echo __('Área Restrita Teste teste'); ?></legend>
+        <legend><?php echo __('Área Restrita'); ?></legend>
         teste
         <?php
         echo $this->Form->input('username',array(
