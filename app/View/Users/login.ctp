@@ -1,6 +1,7 @@
 <div class="users form">
 <?php echo $this->Form->create('User');?>
     <fieldset>
+        <h1>Teste Teste Teste</h1>
         <legend><?php echo __('Área Restrita'); ?></legend>
         <?php
         echo $this->Form->input('username',array(
