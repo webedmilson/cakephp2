@@ -19,7 +19,7 @@ class UsersController extends AppController {
     public function add() {
         if ($this->request->is('post')) {
             $this->User->create();
-            if ($this->User->save($this->request:ata)) {
+            if ($this->User->save($this->request->data)) {
                 $this->Flash->success(__('The user has been saved'));
                 $this->redirect(array('action' => 'index'));
             } else {
@@ -73,7 +73,7 @@ class UsersController extends AppController {
 	public function logout() {
 	    $this->redirect($this->Auth->logout());
 	}
-     public function beforeFilter() {
+    public function beforeFilter() {
         parent::beforeFilter();
         $this->Auth->allow('');
     }
