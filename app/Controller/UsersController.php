@@ -65,9 +65,7 @@ class UsersController extends AppController {
     public function login() {
 	    if ($this->Auth->login()) {
 	        $this->redirect($this->Auth->redirect());
-	    } else {
-	        $this->Flash->error(__('Invalid username or password, try again'));
-	    }
+	    } 
 	}
 
 	public function logout() {

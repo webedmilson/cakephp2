@@ -1,5 +1,4 @@
 <div class="users form">
-<?php echo $this->Flash->render('auth'); ?>
 <?php echo $this->Form->create('User');?>
     <fieldset>
         <legend><?php echo __('Área Restrita'); ?></legend>
